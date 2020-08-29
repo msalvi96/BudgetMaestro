@@ -1,0 +1,7 @@
+<p>transaction-view works!</p>
+<div>
+    <div *ngFor="let transaction of transactions">
+        {{ transaction.title }}
+        {{ getMomentAgo(transaction.date) }}
+    </div>
+</div>
